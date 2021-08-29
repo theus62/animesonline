@@ -1,0 +1,32 @@
+/* CSS => Cascading StyleSheet(Folha de estilo em cascata)
+Estrutura
+Regra CSS:
+seletor {
+    propriedade: valor; -> declaração
+}
+CSS BEM
+B -> Bloco
+E -> Elemento
+M -> Modificador
+font-family: 'Roboto', sans-serif;
+*/
+
+/* BODY */
+body{
+    font-family: 'Roboto', sans-serif;
+}
+
+.container{
+    width: 100%;
+    max-width: 900px;
+    display: flex;
+
+    /* margin-top: 50px;
+    margin-bottom: ;
+    margin-left: ;
+    margin-right: ;
+    margin: top right bottom left;
+    margin: top right/left bottom;
+    margin: top/bottom right/left;
+    margin: todos os lados; */
+}
